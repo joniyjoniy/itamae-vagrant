@@ -1,0 +1,28 @@
+{
+    "packages": [
+        "g++",
+        "git",
+        "mercurial"
+    ],
+    "database": {
+        "mysql": {
+            "group": [
+                "mysql"
+            ],
+            "user": [
+                "mysql"
+            ],
+            "packages": [
+                "libmysqlclient-dev",
+                "mysql-server",
+                "python-dev",
+                "python-pip"
+            ]
+        },
+        "postgresql": [
+            "libpq-dev",
+            "postgresql",
+            "python-psycopg2"
+        ]
+    }
+}
